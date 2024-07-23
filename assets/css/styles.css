@@ -25,6 +25,7 @@ body {
 }
 
 .attribution {
+    margin-top: 5rem;
     font-size: 11px;
     text-align: center;
 }
@@ -53,11 +54,15 @@ body {
     .testimonial_author_name,
     .testimonial_author_title,
     .testimonial_comment {
-        color: black;
+        /* color: hsl(0, 0%, 0%) !important; */
     }
-    .testimonial_quote {
-        color: hsl(206, 3%, 54%);
+    .testimonial_quote,
+    .style-color-gray {
+        color: hsl(206, 3%, 54%) !important;
     }
+}
+.style-color-black {
+    color: black !important;
 }
 .testimonial_grid--reverse .testimonial__item:nth-child(2) {
     --testi-color-bg: #19202d;
@@ -72,6 +77,7 @@ body {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
+    user-select: none;
 }
 .testimonial__item_svg {
     position: absolute;
