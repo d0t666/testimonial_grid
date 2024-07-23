@@ -56,10 +56,10 @@ body {
     .testimonial_comment {
         /* color: hsl(0, 0%, 0%) !important; */
     }
-    .testimonial_quote,
-    .style-color-gray {
-        color: hsl(206, 3%, 54%) !important;
-    }
+}
+.testimonial_quote,
+.style-color-gray {
+    color: hsl(206, 3%, 54%) !important;
 }
 .style-color-black {
     color: black !important;
