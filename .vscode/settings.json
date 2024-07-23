@@ -1,0 +1,8 @@
+{
+    // prettier
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // font fira chữ ghép
+    // "editor.fontFamily": "Fira Code",
+    // "editor.fontLigatures": true
+}
